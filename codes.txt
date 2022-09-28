@@ -1,0 +1,174 @@
+#include <iostream>
+
+using namespace std;
+
+
+struct Person
+{
+	char* name = new char[20];
+	char* surname = new char[20];
+	int age = 0;
+	//Person* child;
+
+	void Print() {
+		cout << name << " " << surname << " " << age << endl;
+	}
+
+	void Copy(Person* p) {
+		strcpy_s(name, strlen(p->name) + 1, p->name);
+		strcpy_s(surname, strlen(p->surname) + 1, p->surname);
+		age = p->age;
+	}
+
+	Person() {}
+
+	Person(const char* n, const char* s, int a) {
+		strcpy_s(name, strlen(n) + 1, n);
+		strcpy_s(surname, strlen(s) + 1, s);
+		age = a;
+	}
+
+	~Person() {
+		delete[] name;
+		delete[] surname;
+	}
+};
+
+void sort(int* arr, int size, bool asc = 1) {
+	if (asc) {
+		for (int i = 0; i < size; i++) {
+			for (int j = 0; j < size - i - 1; j++) {
+				if (arr[j] > arr[j + 1]) {
+					swap(arr[j], arr[j + 1]);
+				}
+			}
+		}
+	}
+	else {
+		for (int i = 0; i < size; i++) {
+			for (int j = 0; j < size - i - 1; j++) {
+				if (arr[j] < arr[j + 1]) {
+					swap(arr[j], arr[j + 1]);
+				}
+			}
+		}
+	}
+}
+
+typedef bool (*CompareFunc)(Person*, Person*);
+
+bool comparePerson(Person* p, Person* p1) {
+	return p->age > p1->age;
+}
+
+void sort(Person* pe, int size, CompareFunc cf) {
+	for (int i = 0; i < size; i++) {
+		for (int j = 0; j < size - i - 1; j++) {
+			if (cf(pe + j, pe + j + 1)) {
+				Person* temp = new Person;
+				temp->Copy(pe + j);
+				pe[j].Copy(pe + j + 1);
+				pe[j + 1].Copy(temp);
+				delete temp;
+
+
+			}
+		}
+	}
+}
+
+//bool* p = new bool(false);
+
+
+void mystrcpy(char*& str, const char* scr) {
+	if (str != nullptr)
+		delete[] str;
+	int len = strlen(scr);
+	str = new char[len + 1];
+	for (int i = 0; scr[i] != '\0'; i++) {
+		str[i] = scr[i];
+	}
+
+	str[len] = '\0';
+}
+
+
+void main() {
+	char* str = nullptr;
+	mystrcpy(str, "hakuna");
+
+	cout << str; 
+	delete[] str;
+
+
+	//bool* p = new bool(true);
+
+	//std::cout << *::p << endl;
+
+
+
+	//int* arr = new int[10]{ 12,-2,33,4,-5,16,-7,58,9,-10 };
+	//sort(arr, 10,0);
+	//for (int j = 0; j < 10; j++) {
+	//	cout << arr[j] << " ";
+	//}cout << endl;
+	//delete[] arr;
+
+
+	//Person* people = new Person[4]{
+	//	Person("Hakuna", "Matata", 42),
+	//	Person("Jhon", "Doe", 13),
+	//	Person("Kamil", "Lelekishiyev", 21),
+	//	Person("Azad", "Isa", 49),
+	//};
+
+	//sort(people, 4, comparePerson);
+	//for (int i = 0; i < 4; i++) {
+	//	people[i].Print();
+	//}
+
+	//delete[] people;
+	//int a = 0;
+	//int b = 2;
+	//int temp = a;
+	//a = b;
+	//b = temp;
+
+
+	//int** p = new int* [3];
+
+	//for (int i = 0; i < 3; i++) {
+	//	p[i] = new int[2];
+	//}
+
+	//int c = 1;
+	//for (int i = 0; i < 3; i++) {
+	//	for (int j = 0; j < 2; j++)
+	//	{
+	//		p[i][j] = c++;
+	//	}
+	//}
+
+	//for (int i = 0; i < 3; i++) {
+	//	for (int j = 0; j < 2; j++)
+	//	{
+	//		cout << p[i][j] << " ";
+	//	}cout << endl;
+	//}
+
+
+	//for (int i = 0; i < 3; i++)
+	//	delete[] p[i];
+
+
+	//delete[] p;
+
+
+	//const int* p = new const int(12);
+
+	//cout << *p << endl;
+	//delete p;
+
+
+
+}
