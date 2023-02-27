@@ -1,0 +1,17 @@
+C:\Users\namiqrasullu\source\repos\MyFirstAmazingDesktopApp\MyFirstAmazingDesktopApp\bin\Debug\net6.0-windows\MyFirstAmazingDesktopApp.exe
+C:\Users\namiqrasullu\source\repos\MyFirstAmazingDesktopApp\MyFirstAmazingDesktopApp\bin\Debug\net6.0-windows\MyFirstAmazingDesktopApp.deps.json
+C:\Users\namiqrasullu\source\repos\MyFirstAmazingDesktopApp\MyFirstAmazingDesktopApp\bin\Debug\net6.0-windows\MyFirstAmazingDesktopApp.runtimeconfig.json
+C:\Users\namiqrasullu\source\repos\MyFirstAmazingDesktopApp\MyFirstAmazingDesktopApp\bin\Debug\net6.0-windows\MyFirstAmazingDesktopApp.dll
+C:\Users\namiqrasullu\source\repos\MyFirstAmazingDesktopApp\MyFirstAmazingDesktopApp\bin\Debug\net6.0-windows\MyFirstAmazingDesktopApp.pdb
+C:\Users\namiqrasullu\source\repos\MyFirstAmazingDesktopApp\MyFirstAmazingDesktopApp\obj\Debug\net6.0-windows\MyFirstAmazingDesktopApp.csproj.AssemblyReference.cache
+C:\Users\namiqrasullu\source\repos\MyFirstAmazingDesktopApp\MyFirstAmazingDesktopApp\obj\Debug\net6.0-windows\MyFirstAmazingDesktopApp.Form1.resources
+C:\Users\namiqrasullu\source\repos\MyFirstAmazingDesktopApp\MyFirstAmazingDesktopApp\obj\Debug\net6.0-windows\MyFirstAmazingDesktopApp.csproj.GenerateResource.cache
+C:\Users\namiqrasullu\source\repos\MyFirstAmazingDesktopApp\MyFirstAmazingDesktopApp\obj\Debug\net6.0-windows\MyFirstAmazingDesktopApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\namiqrasullu\source\repos\MyFirstAmazingDesktopApp\MyFirstAmazingDesktopApp\obj\Debug\net6.0-windows\MyFirstAmazingDesktopApp.AssemblyInfoInputs.cache
+C:\Users\namiqrasullu\source\repos\MyFirstAmazingDesktopApp\MyFirstAmazingDesktopApp\obj\Debug\net6.0-windows\MyFirstAmazingDesktopApp.AssemblyInfo.cs
+C:\Users\namiqrasullu\source\repos\MyFirstAmazingDesktopApp\MyFirstAmazingDesktopApp\obj\Debug\net6.0-windows\MyFirstAmazingDesktopApp.csproj.CoreCompileInputs.cache
+C:\Users\namiqrasullu\source\repos\MyFirstAmazingDesktopApp\MyFirstAmazingDesktopApp\obj\Debug\net6.0-windows\MyFirstAmazingDesktopApp.dll
+C:\Users\namiqrasullu\source\repos\MyFirstAmazingDesktopApp\MyFirstAmazingDesktopApp\obj\Debug\net6.0-windows\refint\MyFirstAmazingDesktopApp.dll
+C:\Users\namiqrasullu\source\repos\MyFirstAmazingDesktopApp\MyFirstAmazingDesktopApp\obj\Debug\net6.0-windows\MyFirstAmazingDesktopApp.pdb
+C:\Users\namiqrasullu\source\repos\MyFirstAmazingDesktopApp\MyFirstAmazingDesktopApp\obj\Debug\net6.0-windows\MyFirstAmazingDesktopApp.genruntimeconfig.cache
+C:\Users\namiqrasullu\source\repos\MyFirstAmazingDesktopApp\MyFirstAmazingDesktopApp\obj\Debug\net6.0-windows\ref\MyFirstAmazingDesktopApp.dll

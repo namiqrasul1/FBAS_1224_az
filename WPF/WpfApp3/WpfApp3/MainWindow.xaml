@@ -1,0 +1,196 @@
+﻿<Window x:Class="WpfApp3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp3" xmlns:sys="clr-namespace:System;assembly=System.Runtime"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <!--<Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <Button Background="YellowGreen" FontSize="30" Content="Button" Name="btn" Click="btn_Click"/>
+        <RepeatButton Grid.Row="1" Grid.Column="0" Background="OrangeRed" Click="btn_Click" FontSize="30">Repeat Button</RepeatButton>
+        <ProgressBar Grid.Row="0" Grid.Column="1" Height="50" Value="10" Maximum="100" Minimum="0" Name="pgBar"/>
+        <Label Grid.Row="1" Grid.Column="1" FontSize="30" Name="lbl" HorizontalContentAlignment="Center" VerticalContentAlignment="Bottom"/>
+        <ToggleButton Grid.Column="0" Grid.Row="2" Content="Toggle" FontSize="30"/>
+        <StackPanel Grid.Row="2" Grid.Column="1">
+            <Slider x:Name="sldR" Maximum="255" Minimum="0" LargeChange="10" Margin="10" ValueChanged="Sld_ValueChanged"></Slider>
+            <Slider x:Name="sldG" Maximum="255" Minimum="0" LargeChange="10" Margin="10" ValueChanged="Sld_ValueChanged"></Slider>
+            <Slider x:Name="sldB" Maximum="255" Minimum="0" LargeChange="10" Margin="10" ValueChanged="Sld_ValueChanged"></Slider>
+        </StackPanel>
+    </Grid>-->
+
+    <!--<StackPanel>
+        <CheckBox Content="Check mee" IsChecked="False" IsEnabled="True" FontSize="30">
+            <CheckBox.ToolTip>
+                CheckBoxdu bu
+            </CheckBox.ToolTip>
+
+            <CheckBox.RenderTransform>
+                <SkewTransform AngleX="30"></SkewTransform>
+            </CheckBox.RenderTransform>
+        </CheckBox>
+        <RadioButton GroupName="A" FontSize="15">1</RadioButton>
+        <RadioButton GroupName="A" FontSize="15">2</RadioButton>
+        <RadioButton GroupName="B" FontSize="15">3</RadioButton>
+        <RadioButton GroupName="B" FontSize="15">4</RadioButton>
+        <Button Height="50" Width="100" Margin="20" Background="Transparent" BorderBrush="Chocolate" BorderThickness="5,10,15,20"/>
+    </StackPanel>-->
+
+    <!--<StackPanel>
+        <Label FontFamily="Comic Sans Ms" FontSize="30" Width="200" Content="Username:" Margin="0,20"/>
+        <TextBox FontFamily="Comic Sans Ms" FontSize="30" Width="200" HorizontalAlignment="Left" Margin="10" AcceptsReturn="False" Name="txt"/>
+        <TextBlock FontFamily="Comic Sans Ms" FontSize="30" Text="Hakuna Matata" TextWrapping="Wrap" ToolTipService.ShowDuration="2000">
+            <TextBlock.ToolTip>
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="Babat"/>
+                    <Line Stroke="Aquamarine" StrokeThickness="2" Y2="180"></Line>
+                    <Image Source="https://www.howtogeek.com/wp-content/uploads/2021/05/rgb_header.jpg" Height="100" Width="100"/>
+                </StackPanel>
+            </TextBlock.ToolTip>
+        </TextBlock>
+
+        <CheckBox Content="Everthing is Ok?" FontSize="30" Checked="CheckBox_Checked" Unchecked="CheckBox_Checked" Name="checkBox"/>
+        <Button Width="100" Height="50" Name="btn" IsEnabled="False" Content="Save" FontSize="30"/>
+    </StackPanel>-->
+
+    <!--<GroupBox Header="Kamil" FontSize="20" Margin="5" BorderBrush="HotPink" BorderThickness="3">
+        <ScrollViewer VerticalScrollBarVisibility="Auto">
+            <StackPanel>
+                <Button Height="50"/>
+                <Button Height="50"/>
+                <Button Height="50"/>
+                <Button Height="50"/>
+                <Button Height="50"/>
+                <Button Height="50"/>
+                <Button Height="50"/>
+                <Button Height="50"/>
+                <Button Height="50"/>
+                <Button Height="50"/>
+                <Button Height="50"/>
+                <Button Height="50"/>
+                <Button Height="50"/>
+                <Button Height="50"/>
+                <Button Height="50"/>
+                <Button Height="50"/>
+                <Button Height="50"/>
+                <Button Height="50"/>
+                <Button Height="50"/>
+            </StackPanel>
+        </ScrollViewer>
+    </GroupBox>-->
+
+
+    <!--<ScrollViewer VerticalScrollBarVisibility="Auto">
+        <StackPanel>
+            <Expander Margin="5" Header="Babat Header" FontSize="20" FontFamily="Comic Sans Ms" Padding="10" BorderBrush="DeepSkyBlue" Name="exp">
+                <StackPanel>
+                    <Label Content="Babat Expander"/>
+                    <Button Click="Button_Click">Expander Button</Button>
+                </StackPanel>
+            </Expander>
+            <Expander Margin="5" Header="Babat Header" FontSize="20" FontFamily="Comic Sans Ms" Padding="10" BorderBrush="DeepSkyBlue" Name="exp1">
+                <StackPanel>
+                    <Label Content="Babat Expander"/>
+                    <Button Click="Button_Click">Expander Button</Button>
+                </StackPanel>
+            </Expander>
+            <Expander Margin="5" Header="Babat Header" FontSize="20" FontFamily="Comic Sans Ms" Padding="10" BorderBrush="DeepSkyBlue" Name="exp2">
+                <StackPanel>
+                    <Label Content="Babat Expander"/>
+                    <Button Click="Button_Click">Expander Button</Button>
+                </StackPanel>
+            </Expander>
+            <Expander Margin="5" Header="Babat Header" FontSize="20" FontFamily="Comic Sans Ms" Padding="10" BorderBrush="DeepSkyBlue" Name="exp3">
+                <StackPanel>
+                    <Label Content="Babat Expander"/>
+                    <Button Click="Button_Click">Expander Button</Button>
+                </StackPanel>
+            </Expander>
+        </StackPanel>
+    </ScrollViewer>-->
+
+    <!--<StackPanel>
+        <ComboBox FontSize="20" BorderBrush="Aquamarine" Width="300" Height="100">
+            <ComboBox.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <WrapPanel Orientation="Horizontal"/>
+                </ItemsPanelTemplate>
+            </ComboBox.ItemsPanel>
+            <StackPanel Orientation="Horizontal">
+                <Image Source="http://fialka.senisevirem.az/uploads/posts/2019-02/1551031942_profil-sekil-yukle-qadin-taleyi-7.jpg" Height="100" Width="100"/>
+                <TextBlock>Elvida, Sevgilim</TextBlock>
+                <Button></Button>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Image Source="https://fialka.senisevirem.az/uploads/posts/2022-04/thumbs/1651069234_menali-yazili-sekiller-bir-tek-seni-sevdim-17.jpg" Height="100" Width="100"/>
+                <TextBlock>Sevdiyim</TextBlock>
+                <Button></Button>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Image Source="https://feat.az/uploads/posts/2018-11/1542068147_43390030_1435027503308152_6309459615670322027_n.jpg" Height="100" Width="100"/>
+                <TextBlock>Yaxshiki Varsan</TextBlock>
+                <Button></Button>
+            </StackPanel>
+        </ComboBox>
+    </StackPanel>-->
+
+    <!--<Grid>
+        <TabControl>
+            <TabItem>
+                <TabItem.Header>
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="https://feat.az/uploads/posts/2018-11/1542068147_43390030_1435027503308152_6309459615670322027_n.jpg" Height="30" Width="30"/>
+                        <Label>Hakuna</Label>
+                    </StackPanel>
+                </TabItem.Header>
+                <Label FontSize="30" Content="Nese yazilib"/>
+            </TabItem>
+            <TabItem Header="Matata">
+                <Label FontSize="30" Content="Nese yazilib Matata"/>
+            </TabItem>
+            <TabItem Header="John">
+                <Label FontSize="30" Content="Nese yazilib John"/>
+            </TabItem>
+            <TabItem Header="Doe">
+                <Label FontSize="30" Content="Nese yazilib Doe"/>
+            </TabItem>
+        </TabControl>
+    </Grid>-->
+
+    <!--<ListBox SelectionMode="Single" Margin="5" Name="CarList" FontSize="20" DisplayMemberPath="Year">
+        <sys:DateTime>02.02.2023</sys:DateTime>
+        <sys:DateTime>02.20.2023</sys:DateTime>
+        <sys:DateTime>05.30.2023</sys:DateTime>
+    </ListBox>-->
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        
+        
+        <ListBox SelectionMode="Single" Margin="5" Name="CarList" FontSize="20" SelectionChanged="CarList_SelectionChanged">
+
+        </ListBox>
+
+        <StackPanel Grid.Column="1">
+            <Label FontSize="20" Content="Vendor:"/>
+            <TextBlock FontSize="20" Name="vendorBlock"/>
+            <Label FontSize="20" Content="Model:"/>
+            <TextBlock FontSize="20" Name="modelBlock"/>
+            <Label FontSize="20" Content="Year:"/>
+            <TextBlock FontSize="20" Name="yearBlock"/>
+        </StackPanel>
+    </Grid>
+    
+</Window>
