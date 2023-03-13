@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "5VDZ3uvy+3pqIDBdDJhWXEA30d28rGp2n50iXo6iaNWI4B+QcqvHBgqiK8Wgo+PRH3G352cB41NMTK3gWUNYtg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\namiqrasullu\\source\\repos\\WpfApp12\\WpfApp12\\WpfApp12.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\namiqrasullu\\.nuget\\packages\\controlzex\\4.3.0\\controlzex.4.3.0.nupkg.sha512",
+    "C:\\Users\\namiqrasullu\\.nuget\\packages\\mahapps.metro\\2.0.0\\mahapps.metro.2.0.0.nupkg.sha512",
+    "C:\\Users\\namiqrasullu\\.nuget\\packages\\materialdesigncolors\\2.1.2\\materialdesigncolors.2.1.2.nupkg.sha512",
+    "C:\\Users\\namiqrasullu\\.nuget\\packages\\materialdesignthemes\\4.8.0\\materialdesignthemes.4.8.0.nupkg.sha512",
+    "C:\\Users\\namiqrasullu\\.nuget\\packages\\materialdesignthemes.mahapps\\0.2.8\\materialdesignthemes.mahapps.0.2.8.nupkg.sha512",
+    "C:\\Users\\namiqrasullu\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.39\\microsoft.xaml.behaviors.wpf.1.1.39.nupkg.sha512",
+    "C:\\Users\\namiqrasullu\\.nuget\\packages\\system.text.json\\4.7.2\\system.text.json.4.7.2.nupkg.sha512"
+  ],
+  "logs": []
+}

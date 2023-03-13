@@ -1,0 +1,19 @@
+﻿<Application x:Class="DependencyIn.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:DependencyIn"
+             xmlns:View="clr-namespace:DependencyIn.Views"
+             xmlns:ViewModels="clr-namespace:DependencyIn.ViewModels"
+             >
+    <Application.Resources>
+        <DataTemplate DataType="{x:Type ViewModels:MainViewModel}">
+            <View:MainView></View:MainView>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type ViewModels:Page1ViewModel}">
+            <View:Page1></View:Page1>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type ViewModels:Page2ViewModel}">
+            <View:Page2></View:Page2>
+        </DataTemplate>
+    </Application.Resources>
+</Application>
